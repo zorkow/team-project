@@ -1,0 +1,31 @@
+{
+  "name": "ams-workshop",
+  "version": "1.0.0",
+  "description": "AMS workshop material",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watch 'npm run build' .",
+    "build": "cd 2021; node ../build.js --standalone --links slides.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorkow/AMS-workshop.git"
+  },
+  "author": "Volker Sorge, Peter Krautzberger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zorkow/AMS-workshop/issues"
+  },
+  "homepage": "https://github.com/zorkow/AMS-workshop#readme",
+  "dependencies": {
+    "diagcess": "^1.1.4",
+    "http-server": "^14.1.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-attrs": "^4.1.3",
+    "markdown-it-container": "^3.0.0",
+    "markdown-it-header-sections": "^1.0.0",
+    "minify": "^5.2.0",
+    "normalize.css": "^8.0.1"
+  }
+}
