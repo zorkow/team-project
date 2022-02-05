@@ -28,13 +28,21 @@ University of Birmingham, UK
 *******************
 
 
+## Exercise 1
+
+* Login
+* Open the Chrome browser
+* Navigate to [https://zorkow.github.io/team-project/2021/](https://zorkow.github.io/team-project/2021/)
+
+
 ## Overview
 
+* What is Usability 
 * What is A11y: Accessibilty?
-* General Usability 
-* Particular Accessibility
+* Persona
+* Desktop and Web Apps
 * Testing
-* Assessment
+* Assessment Remarks
 * General Remarks
 
 
@@ -122,7 +130,7 @@ _A product should be usable by everyone regardless of age, disability or special
 * General Principle of Universal Design
 * Particular aspect is Accessibility
 
-## Importance and misconceptions
+## Importance and misconceptions{.notes}
 
 * Usability has to look good
     * Design is not equal to aesthetics
@@ -180,6 +188,48 @@ skills
 
 *We are all not fully able at some point in our life*
 
+## Types of Disabilities
+
+* Permanent
+* Temporary
+* Situational
+
+Examples:
+
+* Vision: Blind, after eye operation, sitting in the sun
+* Sound: deaf, ear infection, noisy environment
+* Motor: loss of limb, broken arm, carrying shopping bag
+
+
+## Some Accessibility Concepts
+
+* Keyboard accessibility
+    * Every task should be a achievable with keyboard only
+* Visual adaptability
+    * Fonts can be enlarged or even changed
+    * Colour palette supports high contrast
+    * Magnification and zoom available
+* Provision of Alternative media
+    * Visual aids are prorvided with alternative descriptions
+    * Sounds or voice output is subtitled or replaced by visual clues
+
+
+## Accessibility Personas: Guide
+
+Create Personas that require some of the major 
+
+Some helpful resources:
+
+* [Four Example Personas](https://qvik.com/news/four-personas-to-help-you-create-accessible-digital-services/)
+* [UK Government](https://accessibility.blog.gov.uk/2019/02/11/using-persona-profiles-to-test-accessibility/)
+* [UK Government sources](https://alphagov.github.io/accessibility-personas/)
+
+* Accessibility is expensive
+    * Maintaining a poorly designed system is more expensive
+    * Loosing users is loosing customers
+    * Law-suits cost money!
+
+Designing for everyone is important!
 
 ## From Specialist Support to Mainstream
 
@@ -192,37 +242,73 @@ skills
 * Large fonts, Screen magnification, Dark modes, High contrast, ...
 
 
-## 
+## Accessibility of Desktop Applications
 
 
-## Accessibility Personas: Guide
-
-## Accessibility Personas: Links
-
-
-
-
-## Some Accessibility Concepts
-
-* Keyboard accessibility
-    * Every task should be a achievable with keyboard only
-* Visual adaptability
-    * Fonts can be enlarged or even changed
-    * Colour palette supports high contrast
-    * Magnification and zoom available
-* Provision of Alternatives
-    * Visual aids are prorvided with alternative descriptions
-    * Sounds or voice output is subtitled or replaced by visual clues
 * 
 
 Things to avoid:
 
-
-* 
+* Overly handcrafted 
 * What are traps, pitfalls, **dead-ends**?
     * Classic dead-end in keyboard accessibilty:
     A field you tab into but never get out without using the mouse.
-    
+
+
+## Defining Accessibility: POUR Principles
+
+WCAG's core principles:
+
+All content must be
+
+* Perceivable
+    * Alt text, sub-titles
+* Operable
+    * Keyboard, touch
+* Understandable
+    * Language, Icons
+* Robust
+    * Not just for OS X, Browser Y or screen reader Z
+
+for **all** users.
+
+
+## Web Applications
+
+https://www.dropdownmenugenerator.com/
+
+https://blog.hubspot.com/website/html-dropdown
+
+## Making Web Components Accessible
+
+
+* Use a reasonable page layout
+* Use logical  structures like `header`, `main`, `footer`, etc.
+
+* [Roles to describe](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/
+Roles)
+    * standard widget for menu, interaction elements and states, ...
+    * content regions, headings, tables, ...
+* Navigation enhancements via landmarks
+    * Complement the HTML regions
+* Keyboard navigation via `tabindex`
+* Live regions to alert to changing content
+
+
+## Mobile Devices
+
+* Very similar to web accessibility
+* Equally important
+* But even harder
+
+## Exercise 2
+
+* Get your phone out
+* Find accessibility settings
+* Switch on VoiceOver (iOS) or TalkBack (Android)
+* ... good luck
+
+
 ## A11y Testing
 
 Do some simple tests that consume very little time
@@ -255,28 +341,6 @@ See in desktop settings of your OS how to use them.
     * Android: TalkBack (in Settings)
 * ...
 
-
-
-## Defining Accessibility
-
-**Accessibility is a process focusing on people**
-
-## POUR Principles
-
-WCAG's core principles:
-
-All content must be
-
-* Perceivable
-    * Alt text, sub-titles
-* Operable
-    * Keyboard, touch
-* Understandable
-    * Language, Icons
-* Robust
-    * Not just for OS X, Browser Y or screen reader Z
-
-for **all** users.
 
 
 ## Assessment
@@ -313,7 +377,6 @@ Document all your accessibility efforts
     * Assign responsibilities and roles
     * Choose an Accessibility Evangelist
 * Organise your communication
-    * Consider [Slack](https://slack.com/) for easy gitlab integration
     * Chat platform with Video everywhere (Discord or Signal over WhatsApp)
 * Organise your coding
     * Choose a coding and commenting style
@@ -321,7 +384,7 @@ Document all your accessibility efforts
 * Organise your continuous integration
     * Think about semantic versioning
     * [Meaningful commit messages](https://reflectoring.io/meaningful-commit-messages/)
-    * [Automate release note](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+    * [Automate release notes](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
 
 
 ## Myself as a Resource
@@ -349,6 +412,11 @@ But note:
 * I will not present prepared content
 * One person per team
 * Send you Accessibility Evangelist
+
+## Exercise 3
+
+* Switch off the screen reader (if you've switched it on)
+* Log off
 
 
 ## A11Y Resources: Testing per OS
