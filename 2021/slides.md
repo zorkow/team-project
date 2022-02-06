@@ -82,14 +82,14 @@ Unfortunately,
 * But it is important to put it somewhere reachable, safe, operable by
   anyone regardless of size, strength, age, etc.
 
-## General Unusability
+## General Unusability{.notes}
 
 * Example: The Microwave Panel
 * What are all these buttons for?
 
 ![microwave panel](../images/microwave/50_R-651_ZS_CP_web.png){width="250"}
 ![microwave panel](../images/microwave/micro-panel.jpg){width="250"}
-![microwave panel](../images/microwave/Dispatcher.jpeg){width="450"}
+![microwave panel](../images/microwave/Dispatcher.jpeg){width="350"}
 
 
 ## Particular Unusability
@@ -196,9 +196,27 @@ skills
 
 Examples:
 
-* Vision: Blind, after eye operation, sitting in the sun
-* Sound: deaf, ear infection, noisy environment
-* Motor: loss of limb, broken arm, carrying shopping bag
+* Vision: Blind — after eye operation — sitting in the sun
+* Sound: deaf — ear infection — noisy environment
+* Motor: loss of limb — broken arm — carrying shopping bag
+
+
+## Defining Accessibility: POUR Principles
+
+[WCAG's core principles](https://webaim.org/articles/pour/):
+
+All content must be
+
+* Perceivable
+    * Alt text, sub-titles
+* Operable
+    * Keyboard, touch
+* Understandable
+    * Language, Icons
+* Robust
+    * Not just for OS X, Browser Y or screen reader Z
+
+for **all** users.
 
 
 ## Some Accessibility Concepts
@@ -216,13 +234,21 @@ Examples:
 
 ## Accessibility Personas: Guide
 
-Create Personas that require some of the major 
+Create Personas that cover some of the major a11y concepts
 
 Some helpful resources:
 
 * [Four Example Personas](https://qvik.com/news/four-personas-to-help-you-create-accessible-digital-services/)
 * [UK Government](https://accessibility.blog.gov.uk/2019/02/11/using-persona-profiles-to-test-accessibility/)
 * [UK Government sources](https://alphagov.github.io/accessibility-personas/)
+
+Also think about how it can improve the User Experience of every user
+  *  Different ages,
+  *  Environment of use of software
+  *  ...
+
+
+## Not Niche{.notes}
 
 * Accessibility is expensive
     * Maintaining a poorly designed system is more expensive
@@ -242,42 +268,72 @@ Designing for everyone is important!
 * Large fonts, Screen magnification, Dark modes, High contrast, ...
 
 
+## A11y in Design Workflow
+
+
+* Not just a front end consideration
+* Consider all the information you need
+* Make sure that your data structures a general enough for all use cases
+* Ensure your back-end exhibits everything you need at the front-end
+* Avoid premature optimisation 
+    * Do not throw information away that you might need at a later point!
+
+
+## Designing with A11y in Mind
+
+Do not try to retro-fit as this is often impossible!
+
+Good approaches:
+
+1. Think about all the users that can benefit from your product
+2. Consider as many corner case as possible
+3. What are the requirements for your software to satisfy these?
+4. Where do you need to make allowances for different needs?
+
+Non-Accessibility is expensive: Lawsuits cost money!
+
+
+## Accessibility in Practice
+
+  * Desktop programs
+  * Web applications
+  * Mobel apps
+
+
+
 ## Accessibility of Desktop Applications
 
+* Standard widgets get accessibility support from OS
+* Careful with transitions: Content vs "Chrome"
 
-* 
+![Firefox menu bar](../images/menus/Menubar.png){width="550"}
+
+![Widgets](../images/menus/Widgets.png){width="350"}
+![Apple menu bar](../images/menus/Apple_Menu_OS_X_10.10.png){width="250"}
 
 Things to avoid:
 
-* Overly handcrafted 
-* What are traps, pitfalls, **dead-ends**?
+* Overly handcrafted UIs
+* Traps and pitfalls: **dead-ends**
     * Classic dead-end in keyboard accessibilty:
-    A field you tab into but never get out without using the mouse.
+      A field you tab into but never get out without using the mouse.
 
-
-## Defining Accessibility: POUR Principles
-
-WCAG's core principles:
-
-All content must be
-
-* Perceivable
-    * Alt text, sub-titles
-* Operable
-    * Keyboard, touch
-* Understandable
-    * Language, Icons
-* Robust
-    * Not just for OS X, Browser Y or screen reader Z
-
-for **all** users.
 
 
 ## Web Applications
 
-https://www.dropdownmenugenerator.com/
+* No standard layout for your web components
+* Can be build in a myriad of ways
+* Example: drop down menu
+    * [A bad example](https://www.dropdownmenugenerator.com/)
+    * [A good example](https://blog.hubspot.com/website/html-dropdown)
+    
+Use the web trinity:
 
-https://blog.hubspot.com/website/html-dropdown
+* HTML: Basic elements or Syntax 
+* JavaScript: Functionality
+* [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/): Describe meaning or semantics
+
 
 ## Making Web Components Accessible
 
@@ -361,14 +417,15 @@ Other features depending on the particular application you implement
 ## Assessment Tips
 
 Document all your accessibility efforts
-
-* If there is something you can not make accessible:
-  * Discuss 
   
-*   * highlight what works
+  * highlight what works
   * describe what is challenging
   * document limitations
   * do not try to hide them
+  
+There can be parts you can not make accessible
+  * Discuss what are the problems are
+  * What could be a possible solution?
 
 
 ## General Remarks
