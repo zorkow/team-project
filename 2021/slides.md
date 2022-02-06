@@ -38,7 +38,7 @@ University of Birmingham, UK
 ## Overview
 
 * What is Usability 
-* What is A11y: Accessibilty?
+* What is A11y: Accessibility?
 * Persona
 * Desktop and Web Apps
 * Testing
@@ -64,10 +64,10 @@ Unfortunately,
 * Example: Light switch
 * Find it and switch the lights on (or off)
 
-![Light switch 1](../images/switches/300px-Toggleswitch.png){width="300"}
-![Light switch 2](../images/switches/640-474295200-turn-off-light-switch.jpg){width="400"}
-![Light switch 3](../images/switches/ea7114a83a.jpg){width="300"}
-![Light switch 4](../images/switches/Opened_light_switch.JPG){width="300"}
+![Light switch 1](../images/switches/300px-Toggleswitch.png){width="250"}
+![Light switch 2](../images/switches/640-474295200-turn-off-light-switch.jpg){width="350"}
+![Light switch 3](../images/switches/ea7114a83a.jpg){width="250"}
+![Light switch 4](../images/switches/Opened_light_switch.JPG){width="250"}
 
 
 ## General Usability (2)
@@ -82,7 +82,7 @@ Unfortunately,
 * But it is important to put it somewhere reachable, safe, operable by
   anyone regardless of size, strength, age, etc.
 
-## General Unusability{.notes}
+## General Unusability
 
 * Example: The Microwave Panel
 * What are all these buttons for?
@@ -91,8 +91,9 @@ Unfortunately,
 ![microwave panel](../images/microwave/micro-panel.jpg){width="250"}
 ![microwave panel](../images/microwave/Dispatcher.jpeg){width="350"}
 
+* Or the common elevator panel...
 
-## Particular Unusability
+## Particular Unusability{.notes}
 
 * Example: Elevator Panel
 * Find your floor and get there 
@@ -105,10 +106,10 @@ Unfortunately,
 
 ## Software Usability
 
-Traditionaly Usability has been equated with Accessibility. In software it is an
-important concept for all!
+Traditionally Usability has been equated with Accessibility. In software it is
+an important concept for all!
 
-* effective: Is it servicable for what I want to do?
+* effective: Is it serviceable for what I want to do?
 * efficient: Does it help me to do my task or does it get in the way?
 * enjoyable: The first two often define this!
 * safe: How severe are mistakes?
@@ -119,16 +120,15 @@ Additional aspects
     * Do I need a certificate to understand the software?
     * Do I have to relearn after not using a system for a while?
 
-## Achieving Usability
-
-* Usability for one is unusablity for another
-* Try to find a common ground
+## General Usability and Accessibility
 
 _A product should be usable by everyone regardless of age, disability or special
   needs_
 
+* Particular aspect of Usability is Accessibility
+* Usability for one is unusablity for another
+* Try to find a common ground
 * General Principle of Universal Design
-* Particular aspect is Accessibility
 
 ## Importance and misconceptions{.notes}
 
@@ -186,6 +186,22 @@ skills
 
 🧠 Cognition: Dyslexia, Dyscalculia, Distraction, Memory deficits
 
+
+## Is this really important?
+
+* Is designing for everyone important?
+    * Every use facing software should be accessible
+    * Maintaining a poorly designed system is more expensive than caring about
+      accessibility
+    * Loosing users is loosing customers
+    * Law-suits cost money!
+
+* Is this not something for specialists only?
+    * Mistakes at back end design, data structures, development stack selection
+      can destroy the ability to make software accessible
+    * Every software engineer needs to understand basic accessibilty
+      considerations.
+
 *We are all not fully able at some point in our life*
 
 ## Types of Disabilities
@@ -199,6 +215,17 @@ Examples:
 * Vision: Blind — after eye operation — sitting in the sun
 * Sound: deaf — ear infection — noisy environment
 * Motor: loss of limb — broken arm — carrying shopping bag
+
+
+## From Specialist Support to Mainstream
+
+* Voice output: designed BVI community
+    * Everyone listens to audiobooks, home assistants, etc.
+* Voice input: designed for motor impaired people
+    * We all talk to our assistants, SatNavs, etc.
+* Subtitles: Originally designed for DHH community
+    * Many watch with CC by default
+* Large fonts, Screen magnification, Dark modes, High contrast, ...
 
 
 ## Defining Accessibility: POUR Principles
@@ -228,7 +255,7 @@ for **all** users.
     * Colour palette supports high contrast
     * Magnification and zoom available
 * Provision of Alternative media
-    * Visual aids are prorvided with alternative descriptions
+    * Visual aids are supplied with alternative descriptions
     * Sounds or voice output is subtitled or replaced by visual clues
 
 
@@ -256,17 +283,6 @@ Also think about how it can improve the User Experience of every user
     * Law-suits cost money!
 
 Designing for everyone is important!
-
-## From Specialist Support to Mainstream
-
-* Voice output: designd BVI community
-    * Everyone listens to audiobooks, home assistants, etc.
-* Voice input: designd for motor impaired people
-    * We all talk to our assistants, SatNavs, etc.
-* Subtitles: Originally designed for DHH community
-    * Many watch with CC by default
-* Large fonts, Screen magnification, Dark modes, High contrast, ...
-
 
 ## A11y in Design Workflow
 
@@ -385,6 +401,7 @@ See in desktop settings of your OS how to use them.
 
 * Form Factors (desktop, laptop, tablet, mobile ... )
   * Simulate in browser
+* Web accessibility with the [Lighthouse tool](https://developers.google.com/web/tools/lighthouse/) in your browser
 * Screen reading
   * Try a screen reader yourself
     * Windows: Narrator (Windows + Enter),
