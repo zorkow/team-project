@@ -87,13 +87,12 @@ Unfortunately,
 * Example: The Microwave Panel
 * What are all these buttons for?
 
-![microwave panel](../images/microwave/50_R-651_ZS_CP_web.png){width="250"}
-![microwave panel](../images/microwave/micro-panel.jpg){width="250"}
-![microwave panel](../images/microwave/Dispatcher.jpeg){width="350"}
+![microwave panel](../images/microwave/50_R-651_ZS_CP_web.png){height="400"}
+![microwave panel](../images/microwave/micro-panel.jpg){height="400"}
+![microwave panel](../images/microwave/Dispatcher.jpeg){height="400"}
 
-* Or the common elevator panel...
 
-## Particular Unusability{.notes}
+## Particular Unusability
 
 * Example: Elevator Panel
 * Find your floor and get there 
@@ -189,18 +188,16 @@ skills
 
 ## Is this really important?
 
-* Is designing for everyone important?
-    * Every use facing software should be accessible
-    * Maintaining a poorly designed system is more expensive than caring about
-      accessibility
-    * Loosing users is loosing customers
-    * Law-suits cost money!
-
 * Is this not something for specialists only?
+    * Every software engineer needs to understand basic accessibilty
+      considerations
     * Mistakes at back end design, data structures, development stack selection
       can destroy the ability to make software accessible
-    * Every software engineer needs to understand basic accessibilty
-      considerations.
+* Is designing for everyone important?
+    * Every use facing software should be accessible
+    * Maintaining a poorly designed system is more expensive
+    * Loosing users is loosing customers
+    * Law-suits cost money!
 
 *We are all not fully able at some point in our life*
 
@@ -230,9 +227,9 @@ Examples:
 
 ## Defining Accessibility: POUR Principles
 
-[WCAG's core principles](https://webaim.org/articles/pour/):
+[WCAG's core principles](https://webaim.org/articles/pour/): POUR
 
-All content must be
+For **all** users, **all** content must be
 
 * Perceivable
     * Alt text, sub-titles
@@ -243,7 +240,7 @@ All content must be
 * Robust
     * Not just for OS X, Browser Y or screen reader Z
 
-for **all** users.
+
 
 
 ## Some Accessibility Concepts
@@ -313,7 +310,7 @@ Non-Accessibility is expensive: Lawsuits cost money!
 
   * Desktop programs
   * Web applications
-  * Mobel apps
+  * Mobile apps
 
 
 
@@ -323,13 +320,10 @@ Non-Accessibility is expensive: Lawsuits cost money!
 * Careful with transitions: Content vs "Chrome"
 
 ![Firefox menu bar](../images/menus/Menubar.png){width="550"}
-
-![Widgets](../images/menus/Widgets.png){width="350"}
+![Widgets](../images/menus/Widgets.png){height="200"}
 ![Apple menu bar](../images/menus/Apple_Menu_OS_X_10.10.png){width="250"}
 
-Things to avoid:
-
-* Overly handcrafted UIs
+* Avoid overly handcrafted UIs
 * Traps and pitfalls: **dead-ends**
     * Classic dead-end in keyboard accessibilty:
       A field you tab into but never get out without using the mouse.
@@ -353,12 +347,9 @@ Use the web trinity:
 
 ## Making Web Components Accessible
 
-
 * Use a reasonable page layout
 * Use logical  structures like `header`, `main`, `footer`, etc.
-
-* [Roles to describe](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/
-Roles)
+* [Roles to describe](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
     * standard widget for menu, interaction elements and states, ...
     * content regions, headings, tables, ...
 * Navigation enhancements via landmarks
@@ -473,9 +464,7 @@ There can be parts you can not make accessible
 But note:
 
 * I can give you general advice
-* I will **not**
-    * solve your specific problems
-    * debug your software
+* I will **not** solve your specific problems, or debug your software
     
 **If you have more interest in Accessibility, talk to me**
 
@@ -498,7 +487,7 @@ But note:
 * For desktop
   * [Windows](https://docs.microsoft.com/en-us/windows/win32/accessibility/accessibility)
   * [MacOS](https://developer.apple.com/library/archive/documentation/Accessibility/Conceptual/AccessibilityMacOSX/OSXAXTestingApps.html)
-  * []
+  * Linux... not many resources
 * For web applications (mostly for webkit based browsers)
   * WCAG [Access Audit UI](https://chrome.google.com/webstore/detail/wcag-accessibility-audit/kpfleokokmllclahndmochhenmhncoej)
 * [Accessibility Insights for the Web](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)
