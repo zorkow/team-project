@@ -333,16 +333,16 @@ Non-Accessibility is expensive: Lawsuits cost money!
 ## Web Applications
 
 * No standard layout for your web components
-* Can be build in a myriad of ways
+* Widgets can be build in a myriad of ways
 * Example: drop down menu
     * [A bad example](https://www.dropdownmenugenerator.com/)
     * [A good example](https://blog.hubspot.com/website/html-dropdown)
     
 Use the web trinity:
 
-* HTML: Basic elements or Syntax 
+* HTML/CSS: Basic elements with styling or Syntax 
 * JavaScript: Functionality
-* [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/): Describe meaning or semantics
+* [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/): Describe meaning or Semantics
 
 
 ## Making Web Components Accessible
@@ -354,8 +354,9 @@ Use the web trinity:
     * content regions, headings, tables, ...
 * Navigation enhancements via landmarks
     * Complement the HTML regions
-* Keyboard navigation via `tabindex`
-* Live regions to alert to changing content
+* Keyboard navigation via [`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex)
+  * Finetune using [roving tabindices](https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/)
+* [Live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) to alert to changing content
 
 
 ## Mobile Devices
@@ -371,6 +372,15 @@ Use the web trinity:
 * Switch on VoiceOver (iOS) or TalkBack (Android)
 * ... good luck
 
+Example: Using the back button consists of two actions.
+
+* Visual task
+    1. Perception: See the button with backarrow
+    1. Operation: Touch the button to trigger action
+* Non-visual task
+    1. Perception: Hear the button's function with initial tap
+    1. Operation: Tap the button again to trigger action
+    
 
 ## A11y Testing
 
