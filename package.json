@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "watch 'npm run build' .",
-    "build": "cd 2021; node ../build.js --standalone --links slides.md"
+    "build22": "node ./build.js --standalone --links slides.md; mv index.html 2022",
+    "build21": "node ./build.js --standalone --links slides.md; mv index.html 2021"
   },
   "repository": {
     "type": "git",
