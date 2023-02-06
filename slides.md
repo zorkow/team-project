@@ -32,7 +32,10 @@ University of Birmingham, UK
 
 * Login
 * Open the Chrome browser
-* Navigate to [https://zorkow.github.io/team-project/2021/](https://zorkow.github.io/team-project/2021/)
+* Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
+* Tab to the [2022 link](https://zorkow.github.io/team-project/2022)
+* Press Return
+
 
 
 ## Overview
