@@ -145,7 +145,7 @@ $$
 
 * Accessibility is expensive
     * Maintaining a poorly designed system is more expensive
-    * Loosing users is loosing customers
+    * Losing users is losing customers
     * Law-suits cost money!
 
 Designing for everyone is important!
@@ -199,7 +199,7 @@ skills
 * Is designing for everyone important?
     * Every user facing software should be accessible
     * Maintaining a poorly designed system is more expensive
-    * Loosing users is loosing customers
+    * Losing users is losing customers
     * Law-suits cost money!
 
 *We are all not fully able at some point in our life*
@@ -287,7 +287,7 @@ Also think about how it can improve the User Experience of every user
 
 * Accessibility is expensive
     * Maintaining a poorly designed system is more expensive
-    * Loosing users is loosing customers
+    * Losing users is losing customers
     * Law-suits cost money!
 
 Designing for everyone is important!
