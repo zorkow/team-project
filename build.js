@@ -14,6 +14,7 @@ const minify = require('minify');
 let ASYNC_COUNTER = 0;
 let STANDALONE = process.argv.indexOf('--standalone') !== -1;
 let DIRECT_LINKS = process.argv.indexOf('--links') !== -1;
+let PDF = process.argv.indexOf('--pdf') !== -1;
 
 let HEAD = '';
 let HEAD_REPLACE = {};
@@ -428,6 +429,9 @@ let replace = function() {
     SLIDES = SLIDES.replace(key, BODY_REPLACE[key]);
   }
   SLIDES = SLIDES.replace(/<a /g, '<a target="_blank" rel="noopener"');
+  if (PDF) {
+    SLIDES = SLIDES.replace(/[\uD7FF-\u{1FFFF}]/ug, '');
+  }
   slideIds();
 };
 

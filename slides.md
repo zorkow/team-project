@@ -150,7 +150,7 @@ $$
 
 Designing for everyone is important!
 
-## Fitts's law variabls Explanations{.notes}
+## Fitts's Law Variables Explanations{.notes}
 
   * T is the average time taken to complete the movement.
   * {\displaystyle a}represents the start/stop time of the device and 
@@ -160,7 +160,7 @@ Designing for everyone is important!
   * {\displaystyle W} is the width of the target measured along the axis of motion.
   *  {\displaystyle W} can also be thought of as the allowed error tolerance in
      the final position, since the final point of the motion must fall within
-  *  {\displaystyle \pm {\frac {W}{2}}}￼ of the target's centre.
+  *  {\displaystyle \pm {\frac {W}{2}}} of the target's centre.
 
 
 ## Universal Design

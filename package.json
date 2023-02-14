@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "watch 'npm run build' .",
     "build22": "node ./build.js --standalone --links slides.md; mv index.html 2022",
-    "build21": "node ./build.js --standalone --links slides.md; mv index.html 2021"
+    "build21": "node ./build.js --standalone --links slides.md; mv index.html 2021",
+    "pdf": "node ./build.js --pdf slides.md; pandoc -s -V papersize:a4 index.html -o slides.pdf; rm index.html"
   },
   "repository": {
     "type": "git",
