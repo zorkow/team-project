@@ -168,12 +168,10 @@ md.use(container, 'Icon', {
     if (start) {
       let src = elements[1];
       if (STANDALONE) {
-        console.log(2);
         try {
           let stream = fs.readFileSync(src, {encoding:'base64'});
           src = 'data:image/x-icon;base64,\n' + stream;
         } catch (e) {
-          console.log(e);
         }
       }
       HEAD += `<link rel="icon" href="${src}" type="image/x-icon">\n`; // Image compacting
@@ -344,7 +342,6 @@ md.renderer.rules['image'] = function (tokens, idx, options, env, slf) {
   let token = tokens[idx];
   let src = token.attrGet('src');
   let type = imageType(src);
-  console.log(type);
   if (!type) {
     return defaultRenderer(tokens, idx, options, env, slf);
   }
