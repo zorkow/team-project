@@ -1,6 +1,6 @@
 ***Head
 
-:::Icon logos/favicon.ico
+:::Icon ./resources/logos/crest-favicon.ico
 :::CSS ./node_modules/normalize.css/normalize.css minify
 :::CSS ./resources/styles.css minify
 :::Script ./resources/scripts/general-conf.js minify

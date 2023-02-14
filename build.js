@@ -166,12 +166,21 @@ md.use(container, 'Icon', {
     let elements = tokens[idx].info.trim().split(/\s/);
     debug('Icon', start);
     if (start) {
-      HEAD += `<link rel="icon" href="${elements[1]}" type="image/x-icon">\n`; // Image compacting
+      let src = elements[1];
+      if (STANDALONE) {
+        console.log(2);
+        try {
+          let stream = fs.readFileSync(src, {encoding:'base64'});
+          src = 'data:image/x-icon;base64,\n' + stream;
+        } catch (e) {
+          console.log(e);
+        }
+      }
+      HEAD += `<link rel="icon" href="${src}" type="image/x-icon">\n`; // Image compacting
     }
     return '';
   }
 });
-
 
 let asyncJS = async function(stream, count) {
   minify.js(stream).then((x) => {
@@ -335,6 +344,7 @@ md.renderer.rules['image'] = function (tokens, idx, options, env, slf) {
   let token = tokens[idx];
   let src = token.attrGet('src');
   let type = imageType(src);
+  console.log(type);
   if (!type) {
     return defaultRenderer(tokens, idx, options, env, slf);
   }
