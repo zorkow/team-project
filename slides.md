@@ -283,15 +283,6 @@ Also think about how it can improve the User Experience of every user
   *  ...
 
 
-## Not Niche{.notes}
-
-* Accessibility is expensive
-    * Maintaining a poorly designed system is more expensive
-    * Losing users is losing customers
-    * Law-suits cost money!
-
-Designing for everyone is important!
-
 ## A11y in Design Workflow
 
 
