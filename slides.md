@@ -33,7 +33,7 @@ University of Birmingham, UK
 * Login
 * Open the Chrome browser
 * Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
-* Tab to the [2022 link](https://zorkow.github.io/team-project/2022)
+* Tab to the [2023 link](https://zorkow.github.io/team-project/2023)
 * Press Return
 
 
@@ -480,15 +480,14 @@ But note:
     
 **If you have more interest in Accessibility, talk to me**
 
-## Wednesday's Drop-Inn Session
+## Drop-In Office Hours
 
-Wednesday 11-14
+Thursday 12-15
 
-* Q\&A only
-* Mop-up session
-* I will not present prepared content
-* One person per team
-* Send you Accessibility Evangelist
+* Come and see me
+* Not mandatory
+* Maybe one person per team
+* E.g., Send you Accessibility Evangelist
 
 ## Exercise 3
 
