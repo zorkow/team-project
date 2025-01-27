@@ -30,10 +30,12 @@ University of Birmingham, UK
 
 ## Exercise 1
 
-* Login
+If you have a laptop with you, work with it WITHOUT using the mouse/touchpad:
+
+* Login (maybe log out first)
 * Open the Chrome browser
 * Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
-* Tab to the [2023 link](https://zorkow.github.io/team-project/2023)
+* Tab to the [2024 link](https://zorkow.github.io/team-project/2024)
 * Press Return
 
 

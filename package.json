@@ -6,11 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "watch 'pnpm build' .",
+    "build24": "node ./build.js --standalone --links slides.md; mv index.html 2024",
     "build23": "node ./build.js --standalone --links slides.md; mv index.html 2023",
     "build22": "node ./build.js --standalone --links slides.md; mv index.html 2022",
     "build21": "node ./build.js --standalone --links slides.md; mv index.html 2021",
     "pdf": "node ./build.js --pdf slides.md; pandoc -s -V papersize:a4 index.html -o slides.pdf; rm index.html",
-    "build": "pnpm build23"
+    "build": "pnpm build24"
   },
   "repository": {
     "type": "git",
