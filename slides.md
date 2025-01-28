@@ -28,18 +28,6 @@ University of Birmingham, UK
 *******************
 
 
-## Exercise 1
-
-If you have a laptop with you, work with it WITHOUT using the mouse/touchpad:
-
-* Login (maybe log out first)
-* Open the Chrome browser
-* Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
-* Tab to the [2024 link](https://zorkow.github.io/team-project/2024)
-* Press Return
-
-
-
 ## Overview
 
 * What is Usability 
@@ -49,6 +37,19 @@ If you have a laptop with you, work with it WITHOUT using the mouse/touchpad:
 * Testing
 * Assessment Remarks
 * General Remarks
+
+
+## (Homework) Exercise 1
+
+If you have a laptop with you, work with it WITHOUT using the mouse/touchpad:
+
+* Login (maybe log out first)
+* Open the Chrome browser
+* Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
+* Tab to the [2024 link](https://zorkow.github.io/team-project/2024)
+* Press Return
+
+Homework: Try to work with your desktop/laptop for 30 minutes without touching the mouse!
 
 
 ## Usability
@@ -69,10 +70,10 @@ Unfortunately,
 * Example: Light switch
 * Find it and switch the lights on (or off)
 
-![Light switch 1](./images/switches/300px-Toggleswitch.png){width="250"}
-![Light switch 2](./images/switches/640-474295200-turn-off-light-switch.jpg){width="350"}
-![Light switch 3](./images/switches/ea7114a83a.jpg){width="250"}
-![Light switch 4](./images/switches/Opened_light_switch.JPG){width="250"}
+![Light switch 1](./images/switches/300px-Toggleswitch.png){width="350"}
+![Light switch 2](./images/switches/640-474295200-turn-off-light-switch.jpg){width="450"}
+![Light switch 3](./images/switches/ea7114a83a.jpg){width="350"}
+![Light switch 4](./images/switches/Opened_light_switch.JPG){width="350"}
 
 
 ## General Usability (2)
@@ -92,9 +93,9 @@ Unfortunately,
 * Example: The Microwave Panel
 * What are all these buttons for?
 
-![microwave panel](./images/microwave/50_R-651_ZS_CP_web.png){height="400"}
-![microwave panel](./images/microwave/micro-panel.jpg){height="400"}
-![microwave panel](./images/microwave/Dispatcher.jpeg){height="400"}
+![microwave panel](./images/microwave/50_R-651_ZS_CP_web.png){height="700"}
+![microwave panel](./images/microwave/micro-panel.jpg){height="700"}
+![microwave panel](./images/microwave/Dispatcher.jpeg){height="700"}
 
 
 ## Particular Unusability
@@ -103,9 +104,9 @@ Unfortunately,
 * Find your floor and get there 
 * ... if you can
 
-![Elevator Panel 1](./images/panels/lift.jpg){width="300"}
-![Elevator Panel 3](./images/panels/Elevator-Panel.jpg){width="400"}
-![Elevator Panel 4](./images/panels/Idiosyncratic_elevator_panel.jpg){width="500"}
+![Elevator Panel 1](./images/panels/lift.jpg){width="400"}
+![Elevator Panel 3](./images/panels/Elevator-Panel.jpg){width="500"}
+![Elevator Panel 4](./images/panels/Idiosyncratic_elevator_panel.jpg){width="600"}
 
 
 ## Software Usability
@@ -233,10 +234,17 @@ Examples:
 
 ## Dark Mode Example
 
-![Bitmap of a Graph](./images/graphs/Graph_of_example_function.png){width="500"}
-![Same Graph as SVG](./images/graphs/Graph_of_example_function.svg){width="500"}
+![Bitmap of a Graph](./images/graphs/Graph_of_example_function.png){width="700"}
+![Same Graph as SVG](./images/graphs/Graph_of_example_function.svg){width="700"}
 
 
+
+## Exercise 2
+
+* Get your phone out
+* Find accessibility settings
+* Switch on VoiceOver (iOS) or TalkBack (Android)
+* ... good luck
 
 ## Defining Accessibility: POUR Principles
 
@@ -254,6 +262,19 @@ For **all** users, **all** content must be
     * Not just for OS X, Browser Y or screen reader Z
 
 
+## Exercise 2 (continued)
+
+Perception in the context of screen reading.
+
+Example: Using the back button consists of two actions.
+
+* Visual task
+    1. Perception: See the button with backarrow
+    1. Operation: Touch the button to trigger action
+* Non-visual task
+    1. Perception: Hear the button's function with initial tap
+    1. Operation: Tap the button again to trigger action
+    
 
 
 ## Some Accessibility Concepts
@@ -369,22 +390,11 @@ Use the web trinity:
 * Equally important
 * But even harder
 
-## Exercise 2
+## Exercise 3
 
-* Get your phone out
-* Find accessibility settings
-* Switch on VoiceOver (iOS) or TalkBack (Android)
-* ... good luck
+* Switch off the screen reader (if you've switched it on)
+* Log off
 
-Example: Using the back button consists of two actions.
-
-* Visual task
-    1. Perception: See the button with backarrow
-    1. Operation: Touch the button to trigger action
-* Non-visual task
-    1. Perception: Hear the button's function with initial tap
-    1. Operation: Tap the button again to trigger action
-    
 
 ## A11y Testing
 
@@ -466,14 +476,30 @@ There can be parts you can not make accessible
     * [Automate release notes](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
 
 
-## Myself as a Resource
+## Drop-In Office Hours
+
+Thursday 10am-12pm / Friday 1-2pm UG04 Lab
+
+* I will be in the lab
+* Come and talk to me
+* Not mandatory
+
+## A11Y Office Hours
+
+* We will have dedicated A11Y office hour every week
+* Exclusively for A11Y related questions
+* Online on Zoom
+* We will announce time and date on Canvas
+
+
+## Use Me as a Resource
 
 * Make use of my experience on some of the above
-* Email me, or drop me a chat on deparmental zoom or teams
+* Email me, or drop me a chat on departmental zoom or teams
   * I am often slow to reply!
   * Ping me again after a day or two.
-* I will announce weekly drop in sessions for A11Y issues (on zoom, teams, or
-  similar)
+* I will announce the weekly drop in sessions for A11Y issues 
+* Make use of those for questions
 
 But note:
 
@@ -481,21 +507,6 @@ But note:
 * I will **not** solve your specific problems, or debug your software
     
 **If you have more interest in Accessibility, talk to me**
-
-## Drop-In Office Hours
-
-Thursday 12-15
-
-* Come and see me
-* Not mandatory
-* Maybe one person per team
-* E.g., Send you Accessibility Evangelist
-
-## Exercise 3
-
-* Switch off the screen reader (if you've switched it on)
-* Log off
-
 
 ## A11Y Resources: Testing per OS
 
