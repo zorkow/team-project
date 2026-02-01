@@ -1,4 +1,4 @@
-# Lectures at The University of Birmingham
+# at The University of Birmingham
 
 ## Team Project
 
