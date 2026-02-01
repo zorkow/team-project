@@ -445,7 +445,8 @@ See in desktop settings of your OS how to use them.
     * Ensure contrasts for components
     * ARIA annotation of simple semantic web layout
     * Make sure to refine your prompts accordingly
-* Generation of simple alternative texts
+* Generation of personas
+* Generation of alternative texts for graphics
 * AI is still not great for advanced content like 
     * Graphics, in particular SVG, 
     * annotation of complex web layout etc.
@@ -467,7 +468,7 @@ Nevertheless many advanced criteria still need to be checked manually
 * Remediation is the process of make inaccessible content accessible
   * Applications, Web pages, User Interfaces, Documents, ...
 
-**Note: We want you to create an accessible application!
+**Note: We want you to create an accessible application!**
 
 * AI can be useful in areas like
   * CSS rewriting for contrast and dark modes
@@ -478,7 +479,7 @@ Nevertheless many advanced criteria still need to be checked manually
 
 ## Assessment
 
-We will test your product for accessibility. In particular
+We will test your prototype/product for accessibility. In particular
 
 * Keyboard accessibility
 * Visual adaptability
