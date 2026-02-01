@@ -524,11 +524,13 @@ There can be parts you can not make accessible
 
 ## Drop-In Office Hours
 
-Thursday 10am-12pm / Friday 1-2pm UG04 Lab
+Tuesday 10am-12pm
 
-* I will be in the lab
+* I will be in my office
 * Come and talk to me
 * Not mandatory
+
+I will be around most of next week. Send me an email.
 
 ## A11Y Office Hours
 
