@@ -296,9 +296,11 @@ Create Personas that cover some of the major a11y concepts
 
 Some helpful resources:
 
-* [Four Example Personas](https://qvik.com/news/four-personas-to-help-you-create-accessible-digital-services/)
 * [UK Government](https://accessibility.blog.gov.uk/2019/02/11/using-persona-profiles-to-test-accessibility/)
 * [UK Government sources](https://alphagov.github.io/accessibility-personas/)
+* [Five Example Personas](https://uit.stanford.edu/accessibility/design-personas)
+* [Some Personas for VI](https://www.accessiblea11y.com/visual/personas.html)
+
 
 Also think about how it can improve the User Experience of every user
   *  Different ages,
@@ -428,6 +430,32 @@ See in desktop settings of your OS how to use them.
     * iOS: Voiceover (in Settings)
     * Android: TalkBack (in Settings)
 * ...
+
+
+## A11y and AI: Development
+
+* Vercel et al., are good at certain aspects of A11y
+    * Automatically include darkmode
+    * Ensure contrasts for components
+    * ARIA annotation of simple semantic web layout
+    * Make sure to refine your prompts accordingly
+* Generation of simple alternative texts
+* AI is still not great for advanced content like 
+    * Graphics, in particular SVG, 
+    * annotation of complex web layout etc.
+
+
+## A11y and AI: Auditing
+
+* 
+* Some 
+For example try
+[Ottitor](https://chromewebstore.google.com/detail/ottitor/lgdjiennpmfahlhcglbjajbnjelpphil)
+
+
+## A11y and AI: Correction
+
+There 
 
 
 
