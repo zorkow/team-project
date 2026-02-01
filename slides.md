@@ -35,18 +35,19 @@ University of Birmingham, UK
 * Persona
 * Desktop and Web Apps
 * Testing
+* A11y and AI
 * Assessment Remarks
 * General Remarks
 
 
 ## (Homework) Exercise 1
 
-If you have a laptop with you, work with it WITHOUT using the mouse/touchpad:
+If you have a laptop with you, work with it **WITHOUT** using the mouse/touchpad:
 
 * Login (maybe log out first)
 * Open the Chrome browser
 * Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
-* Tab to the [2024 link](https://zorkow.github.io/team-project/2024)
+* Tab to the [2025 link](https://zorkow.github.io/team-project/2025)
 * Press Return
 
 Homework: Try to work with your desktop/laptop for 30 minutes without touching the mouse!
@@ -296,9 +297,11 @@ Create Personas that cover some of the major a11y concepts
 
 Some helpful resources:
 
-* [Four Example Personas](https://qvik.com/news/four-personas-to-help-you-create-accessible-digital-services/)
 * [UK Government](https://accessibility.blog.gov.uk/2019/02/11/using-persona-profiles-to-test-accessibility/)
 * [UK Government sources](https://alphagov.github.io/accessibility-personas/)
+* [Five Example Personas](https://uit.stanford.edu/accessibility/design-personas)
+* [Some Personas for VI](https://www.accessiblea11y.com/visual/personas.html)
+
 
 Also think about how it can improve the User Experience of every user
   *  Different ages,
@@ -327,6 +330,11 @@ Good approaches:
 2. Consider as many corner case as possible
 3. What are the requirements for your software to satisfy these?
 4. Where do you need to make allowances for different needs?
+
+Bad approaches:
+
+1. Design an application/page/content and then remediate it
+2. Using web overlays like WebAbility or UserWay are not compliant!
 
 Non-Accessibility is expensive: Lawsuits cost money!
 
@@ -430,10 +438,48 @@ See in desktop settings of your OS how to use them.
 * ...
 
 
+## A11y and AI: Development
+
+* Vercel et al., are good at certain aspects of A11y
+    * Automatically include darkmode
+    * Ensure contrasts for components
+    * ARIA annotation of simple semantic web layout
+    * Make sure to refine your prompts accordingly
+* Generation of personas
+* Generation of alternative texts for graphics
+* AI is still not great for advanced content like 
+    * Graphics, in particular SVG, 
+    * annotation of complex web layout etc.
+
+
+## A11y and AI: Auditing
+
+Auditing is the process of checking content for WCAG compliance
+
+* Some semantic properties like reading order
+* Language specific success criteria
+* Some Auditing tools incorporate multiple advanced AI techniques:
+  * For example try [Ottitor](https://chromewebstore.google.com/detail/ottitor/lgdjiennpmfahlhcglbjajbnjelpphil)
+
+Nevertheless many advanced criteria still need to be checked manually
+
+## A11y and AI: Remediation
+
+* Remediation is the process of make inaccessible content accessible
+  * Applications, Web pages, User Interfaces, Documents, ...
+
+**Note: We want you to create an accessible application!**
+
+* AI can be useful in areas like
+  * CSS rewriting for contrast and dark modes
+  * Adding simple ARIA attributes
+* But: AI can also get it very wrong!
+  * Often it is more hassle to check then to do it manually
+
 
 ## Assessment
 
-We will test your product for accessibility. In particular
+We will test your prototype/product for accessibility. In particular
 
 * Keyboard accessibility
 * Visual adaptability

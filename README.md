@@ -1,7 +1,12 @@
-# team-project
-Lectures at University of Birmingham
+# Lectures at University of Birmingham
+
+## Team Project
 
 * [2021](./2021)
 * [2022](./2022)
 * [2023](./2023)
-* [**2024**](./2024)
+* [2024](./2024)
+
+## Software Engineering
+
+* [**2025**](./2025)
