@@ -46,8 +46,8 @@ If you have a laptop with you, work with it **WITHOUT** using the mouse/touchpad
 
 * Login (maybe log out first)
 * Open the Chrome browser
-* Navigate to [https://zorkow.github.io/team-project](https://zorkow.github.io/team-project/)
-* Tab to the [2025 link](https://zorkow.github.io/team-project/2025)
+* Navigate to [https://zorkow.github.io/Lectures](https://zorkow.github.io/Lectures/)
+* Tab to the [2025 link](https://zorkow.github.io/Lectures/2025)
 * Press Return
 
 Homework: Try to work with your desktop/laptop for 30 minutes without touching the mouse!
