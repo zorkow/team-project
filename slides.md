@@ -11,7 +11,7 @@
 
 ***TitleSlide
 
-:::Title Team Project: A11y Bootcamp
+:::Title Software Engineering: A11y Bootcamp
 :::Subtitle Usability, Accessibility, and more
 :::
 :::Author Volker Sorge
